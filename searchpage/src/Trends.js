@@ -1,8 +1,5 @@
 import React from 'react';
-import Avatar from 'material-ui/Avatar';
-import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
-import Divider from 'material-ui/Divider';
 import Paper from 'material-ui/Paper';
 
 
@@ -36,7 +33,7 @@ const textStyle2= {
     color:"#78889c"
 }
 
-const Trendsnew = () => (
+const Trends = () => (
     <div style={divStyle}>
         <Paper style={styles}>
             <Subheader style={{ color: "black", fontFamily: "Helvetica" }}><b>Trends for you </b>  · 
@@ -57,14 +54,14 @@ const Trendsnew = () => (
             <div style={textStyle1}><a>#Virushka</a></div>
             <div style={textStyle2}>9K Tweets</div>
             <br />
-                <div style={textStyle1}><a>#MustHaveDevTools</a></div>
+            <div style={textStyle1}><a>#MustHaveDevTools</a></div>
             <div style={textStyle2}>14K Tweets</div>
             <br />
-                    <div style={textStyle1}><a>#FitToFIghtAwards</a></div>
-                        <div style={textStyle2}><a>5104 Tweets</a></div>
+            <div style={textStyle1}><a>#FitToFIghtAwards</a></div>
+            <div style={textStyle2}><a>5104 Tweets</a></div>
             <br />
         </Paper>
     </div>
 );
 
-export default Trendsnew;
+export default Trends;

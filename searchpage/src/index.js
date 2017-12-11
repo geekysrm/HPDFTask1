@@ -3,30 +3,26 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import AppBarExampleIcon from './AppBarExampleIcon';
-import FlatButtonExampleIcon from './IconsTop';
-import Navbarnew from './Navbarnew';
+import Navbar from './Navbar';
 import Query from './Query';
-import Trendsnew from './Trendsnew';
-import Timelinenew from './Timelinenew';
+import Trends from './Trends';
+import Timeline from './Timeline';
 import Follow from './Follow';
 import Footer from './Footer';
-import TweetBoxnew from './TweetBoxnew';
 import Typebar from './Typebar';
 import RelatedSearches from './RelatedSearches';
 import People from './People';
 
 const App = () => (
   <MuiThemeProvider>
-    <Navbarnew  />
+    <Navbar  />
     <Query />
     <Typebar />
     <People />
-    < Timelinenew />
-  <Follow />
-    
+    <Timeline />
+    <Follow />
     <RelatedSearches />
-    <Trendsnew />
+    <Trends />
     <Footer />
   </MuiThemeProvider>
 );
@@ -34,7 +30,5 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
-
-
 
 registerServiceWorker();

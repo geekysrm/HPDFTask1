@@ -1,17 +1,7 @@
 import React from 'react';
 import IconMenu from 'material-ui/IconMenu';
 import Paper from 'material-ui/Paper';
-import IconButton from 'material-ui/IconButton';
-import FontIcon from 'material-ui/FontIcon';
-import NavigationExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
-import MenuItem from 'material-ui/MenuItem';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import RaisedButton from 'material-ui/RaisedButton';
-import TextField from 'material-ui/TextField';
-import FlatButton from 'material-ui/FlatButton';
-import Home from 'material-ui/svg-icons/action/home';
-import Notifications from 'material-ui/svg-icons/social/notifications-none';
-import Messages from 'material-ui/svg-icons/communication/mail-outline';
+import IconButton from 'material-ui/IconButton';import MenuItem from 'material-ui/MenuItem';
 import MoreVertIcon from 'material-ui/svg-icons/navigation/more-vert';
 import Divider from 'material-ui/Divider';
 
@@ -26,16 +16,14 @@ const style = {
 }
 
 const textStyle={
-            fontSize: 12,
-            textAlign: 'center',
-            paddingLeft: 15,
-            color: '#66757f',
-            display: 'inline-block',
-            cursor: 'pointer',
-            fontWeight:'bold'
+    fontSize: 12,
+    textAlign: 'center',
+    paddingLeft: 15,
+    color: '#66757f',
+    display: 'inline-block',
+    cursor: 'pointer',
+    fontWeight:'bold'
 }
-
-
 
 export default class TypeBar extends React.Component {
     render() {
@@ -50,20 +38,20 @@ export default class TypeBar extends React.Component {
                                 color: '#66757f',
                                 display: 'inline-block',
                                 cursor: 'pointer',
-                            fontWeight: 'bold'
+                                fontWeight: 'bold'
                         }}><a>Top</a></span>
                        
-                        <span style={textStyle}><a>Latest</a></span>
-                        
+                            <span style={textStyle}><a>Latest</a></span>
+                            
                             <span style={textStyle}><a>People</a></span>
-                        
-                                <span style={textStyle}><a>Photos</a></span>
 
-                                    <span style={textStyle}><a>Videos</a></span>
+                            <span style={textStyle}><a>Photos</a></span>
 
-                                        <span style={textStyle}><a>News</a></span>
+                            <span style={textStyle}><a>Videos</a></span>
 
-                                            <span style={textStyle}><a>Broadcasts</a></span>
+                            <span style={textStyle}><a>News</a></span>
+
+                            <span style={textStyle}><a>Broadcasts</a></span>
                     </ToolbarGroup>
                     
                     <ToolbarGroup>

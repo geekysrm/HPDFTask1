@@ -1,14 +1,7 @@
 import React from 'react';
-import IconMenu from 'material-ui/IconMenu';
 import Paper from 'material-ui/Paper';
 import IconButton from 'material-ui/IconButton';
-import FontIcon from 'material-ui/FontIcon';
-import NavigationExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
-import MenuItem from 'material-ui/MenuItem';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
-import FlatButton from 'material-ui/FlatButton';
 import Home from 'material-ui/svg-icons/action/home';
 import Notifications from 'material-ui/svg-icons/social/notifications-none';
 import Messages from 'material-ui/svg-icons/communication/mail-outline';
@@ -105,7 +98,7 @@ const avatar={
 
 
 
-export default class Navbarnew extends React.Component {
+export default class Navbar extends React.Component {
     render() {
         return (
             <Paper style={style} zDepth={1} >
@@ -122,7 +115,8 @@ export default class Navbarnew extends React.Component {
                             color: '#66757f',
                             display: 'inline-block',
                             cursor: 'pointer',
-                            fontWeight: 'bold'}}><a>Home</a></span>
+                            fontWeight: 'bold'}}><a>Home</a>
+                        </span>
                         <IconButton style={{ float: 'right', marginLeft: 185, position: 'absolute' }} className="floatingButton"
                             backgroundColor='#66757f'>
                             <Notifications color={'#66757f'} style={{ float: 'right' }} />
@@ -135,7 +129,8 @@ export default class Navbarnew extends React.Component {
                             display: 'inline-block',
                             cursor: 'pointer',
                             fontWeight: 'bold'
-                        }}><a>Notifications</a></span>
+                            }}><a>Notifications</a>
+                        </span>
                         <IconButton style={{ float: 'right', marginLeft: 285, position: 'absolute' }} className="floatingButton"
                             backgroundColor='#66757f'>
                             <Messages color={'#66757f'} style={{ float: 'right' }} />
@@ -148,10 +143,11 @@ export default class Navbarnew extends React.Component {
                             display: 'inline-block',
                             cursor:'pointer',
                             fontWeight: 'bold'
-                        }}><a>Messages</a></span>
+                            }}><a>Messages</a>
+                        </span>
                 </ToolbarGroup>
                 <ToolbarGroup >
-                    <img style={imgStyle} src="./twitter.png"/>
+                  <img style={imgStyle} src="./twitter.png"/>
                 </ToolbarGroup>
                 <ToolbarGroup>
                         <Paper style={Paperstyle} zDepth={1} >
@@ -169,8 +165,6 @@ export default class Navbarnew extends React.Component {
                             
                         </Paper>
                 </ToolbarGroup>
-
-                
             </Toolbar>
             </Paper>
         );

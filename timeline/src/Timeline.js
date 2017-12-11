@@ -1,8 +1,6 @@
 import React from 'react';
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
 import IconButton from 'material-ui/IconButton';
-import ActionHome from 'material-ui/svg-icons/action/home';
 import More from 'material-ui/svg-icons/navigation/expand-more';
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
@@ -15,7 +13,7 @@ const style = {
     display: 'inline-block',
     float: 'right',
     marginRight: 400,
-};
+}
 
 const titleStyle={
     marginTop:9,
@@ -39,7 +37,7 @@ const iconStyle={
     height: 15, 
     maxWidth: 15, 
     paddingBottom: 7 
-  }
+}
 
 const style1={
     height: 415,
@@ -50,11 +48,12 @@ const style1={
     marginRight: 400,
 }
 
-const Timelinenew = () => (
+const Timeline = () => (
     <div>
     <Card style={style1}>
         <CardHeader 
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>Nat Geo </b> </p><p style={subtitle}>@NatGeo · <a>1h</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>Nat Geo </b> </p><p style={subtitle}>@NatGeo · <a>1h</a>
+                        </p></div>}
             avatar="./timelineav1.jpg"
         />
             <IconMenu
@@ -102,7 +101,8 @@ const Timelinenew = () => (
 
         <Card style={style}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>Times of India </b> </p><p style={subtitle}>@timesofindia · <a>4h</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>Times of India </b> </p><p style={subtitle}>@timesofindia · <a>4h</a>
+                </p></div>}
                 avatar="./timelineav2.jpg"
             />
             <IconMenu
@@ -122,7 +122,9 @@ const Timelinenew = () => (
 
             </IconMenu>
             <CardText style={{ marginTop: -30 }}>
-                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>We believe that every American should stand for the National Anthem, and we proudly pledge allegiance to one NATION UNDER GOD! :<b> Donald Trump</b></span>
+                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>We believe that every American should stand for the National Anthem, 
+                and we proudly pledge allegiance to one NATION UNDER GOD! :<b> Donald Trump</b>
+                </span>
             </CardText >
             <CardMedia style={imgStyle}>
                 <img src="./timeline2.jpg" alt="donald-trump" style={{ borderRadius: 4, maxHeight: '250px' }} />
@@ -148,7 +150,8 @@ const Timelinenew = () => (
 
         <Card style={style}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>CNN Breaking News </b> </p><p style={subtitle}>@cnnbrk · <a>2h</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>CNN Breaking News </b> </p><p style={subtitle}>@cnnbrk · <a>2h</a>
+                </p></div>}
                 avatar="./timelineav3.jpg"
             />
             <IconMenu
@@ -168,7 +171,9 @@ const Timelinenew = () => (
 
             </IconMenu>
             <CardText style={{ marginTop: -30 }}>
-                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>Prime Minister Narendra Modi talks about 3 factors that helped reduce corruption, bring transparency. Also speaks about de-monetisation.</span>
+                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>Prime Minister Narendra Modi talks about 3 factors that 
+                helped reduce corruption, bring transparency. Also speaks about de-monetisation.
+                </span>
             </CardText >
             <CardMedia style={imgStyle}>
                 <img src="./timeline3.jpg" alt="narendra-modi" style={{ borderRadius: 4, maxHeight: '250px' }} />
@@ -194,7 +199,8 @@ const Timelinenew = () => (
 
         <Card style={style}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>Paytm </b> </p><p style={subtitle}>@Paytm · <a>6h</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}>Paytm </b> </p><p style={subtitle}>@Paytm · <a>6h</a>
+                </p></div>}
                 avatar="./timelineav4.jpg"
             />
             <IconMenu
@@ -214,7 +220,9 @@ const Timelinenew = () => (
 
             </IconMenu>
             <CardText style={{ marginTop: -30 }}>
-                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>We are extremely proud to announce that we have received INR 1 Crore+ from Paytm users across India for the Armed Forces Flag Day Fund. </span>
+                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>We are extremely proud to announce that we have 
+                received INR 1 Crore+ from Paytm users across India for the Armed Forces Flag Day Fund. 
+                </span>
             </CardText >
             <CardMedia style={imgStyle}>
                 <img src="./timeline4.jpg" alt="paytm" style={{ borderRadius: 4, maxHeight: '250px' }} />
@@ -240,4 +248,4 @@ const Timelinenew = () => (
     </div>
 );
 
-export default Timelinenew;
+export default Timeline;

@@ -1,6 +1,4 @@
 import React from 'react';
-import Paper from 'material-ui/Paper';
-import RaisedButton from 'material-ui/RaisedButton';
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
 import Avatar from 'material-ui/Avatar';
@@ -40,19 +38,29 @@ const Follow = () => (
     
     
     <Card style={style}>   
-        <div style={{ marginTop: 12, paddingLeft: 20, fontWeight: 'bold', textAlign: 'left', fontSize: '13px' }}> Who to follow <span style={{ fontSize: '10px', fontWeight: 'normal', color: '#1c94e0' }}> · <a>Refresh</a> · <a>View all</a></span> </div>
+        <div style={{ marginTop: 12, paddingLeft: 20, fontWeight: 'bold', textAlign: 'left', fontSize: '13px' }}> Who to follow 
+        <span style={{ fontSize: '10px', fontWeight: 'normal', color: '#1c94e0' }}> · <a>Refresh</a> · <a>View all</a>
+        </span> 
+        </div>
         <CardHeader
-            title={<div><h5 style={{ marginTop: '3px', fontFamily: "Helvetica", textAlign: 'left', display: 'inline-block', float: 'left' }}><a>Narendra Modi</a></h5><span style={{ position: 'absolute', marginTop: '5px', fontSize: '11px', display: 'inline-block', textAlign: 'left', paddingLeft: 4, color:'#657786'}}>@naren...</span></div>}
+            title={<div><h5 style={{ marginTop: '3px', fontFamily: "Helvetica", textAlign: 'left', display: 'inline-block', float: 'left' }}>
+            <a>Narendra Modi</a></h5><span style={{ position: 'absolute', marginTop: '5px', fontSize: '11px', display: 'inline-block', textAlign: 'left', paddingLeft: 4, color:'#657786'}}>@naren...
+            </span></div>}
             avatar={<Avatar src="./follow1.jpg" style={{float:'left',marginBottom:'13px'}} />}
         />
         <FlatButton label="Follow" labelStyle={{ paddingBottom: '20px', textAlign: 'center', textTransform: 'capitalize', fontSize: 9, fontWeight: 700 }} style={button} />
         <CardHeader
-            title={<div><h5 style={{ marginTop: '3px', fontFamily: "Helvetica", textAlign: 'left', display: 'inline-block', float: 'left' }}><a>Google India</a></h5><span style={{ position: 'absolute', marginTop: '5px', fontSize: '11px', display: 'inline-block', textAlign: 'left', paddingLeft: 4, color: '#657786'}}>@Google....</span></div>}
+            title={<div><h5 style={{ marginTop: '3px', fontFamily: "Helvetica", textAlign: 'left', display: 'inline-block', float: 'left' }}>
+            <a>Google India</a></h5>
+            <span style={{ position: 'absolute', marginTop: '5px', fontSize: '11px', display: 'inline-block', textAlign: 'left', paddingLeft: 4, color: '#657786'}}>@Google....
+            </span></div>}
             avatar={<Avatar src="./follow2.jpg" style={{ float: 'left', marginBottom: '13px' }} />}
         />
         <FlatButton label="Follow" labelStyle={{ paddingBottom: '20px', textAlign: 'center', textTransform: 'capitalize', fontSize: 9, fontWeight: 700 }} style={button} />
         <CardHeader
-            title={<div><h5 style={{ marginTop: '3px', fontFamily: "Helvetica", textAlign: 'left', display: 'inline-block', float: 'left' }}><a>TechCrunch</a></h5><span style={{ position: 'absolute', marginTop: '5px', fontSize: '11px', display: 'inline-block', textAlign: 'left', paddingLeft: 4, color: '#657786'}}>@TechCru....</span></div>}
+            title={<div><h5 style={{ marginTop: '3px', fontFamily: "Helvetica", textAlign: 'left', display: 'inline-block', float: 'left' }}>
+            <a>TechCrunch</a></h5><span style={{ position: 'absolute', marginTop: '5px', fontSize: '11px', display: 'inline-block', textAlign: 'left', paddingLeft: 4, color: '#657786'}}>@TechCru....
+            </span></div>}
             avatar={<Avatar src="./follow3.jpg" style={{ float: 'left', marginBottom: '13px' }} />}
         />
         <FlatButton label="Follow" labelStyle={{ paddingBottom: '20px', textAlign: 'center', textTransform: 'capitalize', fontSize: 9, fontWeight: 700 }} style={button} />
@@ -67,11 +75,12 @@ const Follow = () => (
                 marginTop: -9,
                 paddingRight: 15,
                 float: 'left'
-
             }}>
             <People color={'#1DA1F2'} viewBox="0 0 40 20" />
         </IconButton> 
-        <span style={{ fontSize: '10px', float: 'left', marginTop: 10, color: '#1c94e0' }}>&nbsp; <a>Find people you know</a></span>
+        <span style={{ fontSize: '10px', float: 'left', marginTop: 10, color: '#1c94e0' }}>&nbsp; 
+        <a>Find people you know</a>
+        </span>
 
     </Card>
    

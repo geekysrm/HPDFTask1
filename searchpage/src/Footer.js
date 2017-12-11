@@ -1,7 +1,5 @@
 import React from 'react';
 import Paper from 'material-ui/Paper';
-import OpenInNew from 'material-ui/svg-icons/action/open-in-new';
-import IconButton from 'material-ui/IconButton';
 
 
 const style={
@@ -16,7 +14,6 @@ const style={
     position:'absolute',
     backgroundColor:'transperent',
 }
-
 const textStyle={
     fontSize: '11px',
     textAlign:'left',
@@ -27,9 +24,8 @@ const textStyle={
 const Footer = () => (
 
         <Paper style={style} zDepth={0} >
-        <p style={textStyle}>© 2017 <a>Twitter</a> <a>About</a> <a>Help Center</a> <a>Terms</a> <a>Privacy policy</a> <a>Cookies</a> <a>Ads info</a>  </p>
-        
-        
+        <p style={textStyle}>© 2017 <a>Twitter</a> <a>About</a> <a>Help Center</a> 
+        <a>Terms</a> <a>Privacy policy</a> <a>Cookies</a> <a>Ads info</a>  </p>
         </Paper>
 
 );

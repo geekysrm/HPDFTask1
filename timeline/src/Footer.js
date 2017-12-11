@@ -3,7 +3,6 @@ import Paper from 'material-ui/Paper';
 import OpenInNew from 'material-ui/svg-icons/action/open-in-new';
 import IconButton from 'material-ui/IconButton';
 
-
 const style={
     height: 105,
     width: 250,
@@ -26,7 +25,12 @@ const textStyle={
 const Footer = () => (
 
         <Paper style={style} zDepth={1} >
-        <p style={textStyle}>© 2017 Twitter <a>About</a> <a>Help Center</a> <a>Terms</a> <a>Privacy policy</a> <a>Cookies</a> <a>Ads info</a> <a>Brand</a> <a>Blog</a> <a>Status</a> <a>Apps</a> <a>Jobs</a> <a>Marketing</a> <a>Businesses</a> <a>Developers</a> </p>
+        <p style={textStyle}>
+        © 2017 Twitter <a>About</a> <a>Help Center</a> 
+        <a>Terms</a> <a>Privacy policy</a> <a>Cookies</a> <a>Ads info</a> 
+        <a>Brand</a> <a>Blog</a> <a>Status</a> <a>Apps</a> <a>Jobs</a> 
+        <a>Marketing</a> <a>Businesses</a> <a>Developers</a> 
+        </p>
         
         <IconButton className="floatingButton"
             backgroundColor='#293C8E'
@@ -38,8 +42,7 @@ const Footer = () => (
                 marginTop:-19,
                 paddingRight:20,
                 float: 'left'
-
-            }}>
+                     }}>
             <OpenInNew color={'#1DA1F2'} viewBox="0 0 40 20"  />
         </IconButton> 
         <p style={{
@@ -47,7 +50,8 @@ const Footer = () => (
             textAlign: 'left',
             marginLeft: 29,
             color: "#1da1f2",
-        }}><a>Advertise with Twitter</a></p>
+                }}>
+            <a>Advertise with Twitter</a></p>
         </Paper>
 
 );

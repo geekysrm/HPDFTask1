@@ -1,8 +1,5 @@
 import React from 'react';
-import Avatar from 'material-ui/Avatar';
-import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
-import Divider from 'material-ui/Divider';
 import Paper from 'material-ui/Paper';
 
 

@@ -1,14 +1,7 @@
 import React from 'react';
-import IconMenu from 'material-ui/IconMenu';
-import Paper from 'material-ui/Paper';
 import IconButton from 'material-ui/IconButton';
-import FontIcon from 'material-ui/FontIcon';
-import NavigationExpandMoreIcon from 'material-ui/svg-icons/navigation/expand-more';
-import MenuItem from 'material-ui/MenuItem';
-import DropDownMenu from 'material-ui/DropDownMenu';
-import RaisedButton from 'material-ui/RaisedButton';
+import Paper from 'material-ui/Paper';
 import TextField from 'material-ui/TextField';
-import FlatButton from 'material-ui/FlatButton';
 import Home from 'material-ui/svg-icons/action/home';
 import Notifications from 'material-ui/svg-icons/social/notifications-none';
 import Messages from 'material-ui/svg-icons/communication/mail-outline';
@@ -40,8 +33,6 @@ const button={
     fontSize:'11px',
     cursor:'pointer'
 }
-
-
 const imgStyle={
     width:19,
     height:18,
@@ -53,13 +44,6 @@ const imgStyle={
     marginLeft: 240,
     marginTop:-8,
     cursor:'pointer'
-}
-
-const hintStyle={
-    color: '#6e7f8d',
-    paddingBottom:13,
-    paddingLeft:8,
-    fontSize:12
 }
 
 const Paperstyle={
@@ -107,7 +91,7 @@ const avatar={
 
 
 
-export default class Navbarnew extends React.Component {
+export default class Navbar extends React.Component {
     render() {
         return (
             <Paper style={style} zDepth={1} >

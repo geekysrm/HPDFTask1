@@ -1,8 +1,6 @@
 import React from 'react';
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
-import FlatButton from 'material-ui/FlatButton';
 import IconButton from 'material-ui/IconButton';
-import ActionHome from 'material-ui/svg-icons/action/home';
 import More from 'material-ui/svg-icons/navigation/expand-more';
 import IconMenu from 'material-ui/IconMenu';
 import MenuItem from 'material-ui/MenuItem';
@@ -46,11 +44,12 @@ const style1={
     cursor:'pointer'
 }
 
-const Timelinenew = () => (
+const Timeline = () => (
     <div>
     <Card style={style1}>
         <CardHeader 
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Arvind Jha</a> </b> </p><p style={subtitle}>@jalajboy · <a>Dec 6</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Arvind Jha</a> </b> </p><p style={subtitle}>@jalajboy · 
+                <a>Dec 6</a></p></div>}
             avatar="./timelineav1.jpg"
         />
             <IconMenu
@@ -73,7 +72,6 @@ const Timelinenew = () => (
                 <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>First they pushed SMS, email
                     Then they started calls
                     Finally they’ve started adding <b>Aadhaar</b> without your consent
-
                     Govt is by-passing SC. And claiming majority want it. </span>
         </CardText >
         
@@ -106,7 +104,8 @@ const Timelinenew = () => (
             marginRight: 385,
             cursor: 'pointer'}}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Beebom</a> </b> </p><p style={subtitle}>@beebomco · <a>Dec 6</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Beebom</a> </b> </p><p style={subtitle}>@beebomco · 
+                <a>Dec 6</a></p></div>}
                 avatar="./timelineav2.jpeg"
             />
             <IconMenu
@@ -126,9 +125,12 @@ const Timelinenew = () => (
 
             </IconMenu>
             <CardText style={{ marginTop: -30 }}>
-                <span style={{ fontFamily: "sans-serif", fontSize: 10,paddingBottom:100}}>65-year-old Sajidha Begum has lost her sight and fingers, and she has no way of submitting the necessary fingerprints and iris scans.
+                <span style={{ fontFamily: "sans-serif", fontSize: 10,paddingBottom:100}}>65-year-old Sajidha Begum has lost her 
+                sight and fingers, and she has no way of submitting the necessary fingerprints and iris scans.
 
-                    In August, however, the Indian government sent a letter to her saying her pension was being taken away unless it was linked to an<b> Aadhaar</b> card. </span>
+                In August, however, the Indian government sent a letter to her saying her 
+                pension was being taken away unless it was linked to an<b> Aadhaar</b> card. 
+                </span>
             </CardText >
             <CardMedia style={imgStyle}>
                 <img src="./timeline2.jpg" alt="beebom" style={{ borderRadius: 4,  }} />
@@ -181,7 +183,8 @@ const Timelinenew = () => (
             cursor: 'pointer'
         }}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Rahul Singh</a> </b> </p><p style={subtitle}>@rahulsingh1996 · <a>Dec 5</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Rahul Singh</a> </b> </p>
+                <p style={subtitle}>@rahulsingh1996 · <a>Dec 5</a></p></div>}
                 avatar="./timelineav3.jpg"
             />
             <IconMenu
@@ -203,7 +206,8 @@ const Timelinenew = () => (
             <CardText style={{ marginTop: -30 }}>
                 <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>Finally. Good news from UIDAI 
 
-                    If your <b>Aadhaar</b> Card is not linked with your marriage certificate before 31st December 2017, you will be considered single from 1st Jan 2018.</span>
+                    If your <b>Aadhaar</b> Card is not linked with your marriage certificate before 
+                    31st December 2017, you will be considered single from 1st Jan 2018.</span>
             </CardText >
             
             <div style={{ position: 'absolute' }}>
@@ -236,7 +240,8 @@ const Timelinenew = () => (
             cursor: 'pointer'
         }}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Kiran Jonnalagadda‏</a> </b> </p><p style={subtitle}>@jackerhack · <a>Dec 5</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Kiran Jonnalagadda‏</a> </b> </p>
+                <p style={subtitle}>@jackerhack · <a>Dec 5</a></p></div>}
                 avatar="./timelineav4.jpeg"
             />
             <IconMenu
@@ -256,7 +261,11 @@ const Timelinenew = () => (
 
             </IconMenu>
             <CardText style={{ marginTop: -30 }}>
-                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>What is this? The government insists on sharing your <b>Aadhaar</b> number with third parties, as a condition for getting a job? Regardless of what it actually means, do they not understand the implications of a message that <b>Aadhaar</b> numbers are for sharing?  </span>
+                <span style={{ fontFamily: "sans-serif", fontSize: 10 }}>What is this? 
+                The government insists on sharing your <b>Aadhaar</b> number with third parties, as a 
+                condition for getting a job? Regardless of what it actually means, do they not understand the 
+                implications of a message that <b>Aadhaar</b> numbers are for sharing?  
+                </span>
             </CardText >
             <CardMedia style={imgStyle}>
                 <img src="./timeline4.jpg" alt="kiran" style={{ borderRadius: 4, maxHeight: '250px' }} />
@@ -319,7 +328,8 @@ const Timelinenew = () => (
             cursor: 'pointer'
         }}>
             <CardHeader
-                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Anivar Aravind</a> </b> </p><p style={subtitle}>@anivar · <a>Dec 8</a></p></div>}
+                title={<div><p style={titleStyle}><b style={{ fontSize: 12 }}><a>Anivar Aravind</a> </b> </p>
+                <p style={subtitle}>@anivar · <a>Dec 8</a></p></div>}
                 avatar="./timelineav5.jpg"
             />
             <IconMenu
@@ -344,7 +354,8 @@ const Timelinenew = () => (
                     Tomorrow <span style={{ color: '#1da1f2' }}><a>#HumanRightsDay</a></span> marks 1540  
                     days since 1st <b>Aadhaar</b> interim verdict (23rd sep 2013) which stated
 
-                    "No person should suffer for not getting the <b>aadhaar</b> inspite of the fact that some authority issued a circular making it mandatory"
+                    "No person should suffer for not getting the <b>aadhaar</b> inspite of the fact 
+                    that some authority issued a circular making it mandatory"
 </span>
             </CardText >
 
@@ -370,4 +381,4 @@ const Timelinenew = () => (
     </div>
 );
 
-export default Timelinenew;
+export default Timeline;
