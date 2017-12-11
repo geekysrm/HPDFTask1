@@ -1,3 +1,18 @@
+Hasura Product Development Fellowship Task 1:  **Twitter Timeline**
+
+## Instructions for running the Timeline page:
+
+1. Clone the repository which includes 2 folders.
+2. Go to `timeline` folder.
+3. Run `npm install` from your terminal to install all dependencies.
+4. Run `npm start` from your terminal to start the server in development mode.
+5. Head to  http://localhost:3000 on your browser.
+6. You will have the **Twitter Timeline** running on your browser.
+
+~ Soumya Ranjan Mohanty (@geekysrm)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
