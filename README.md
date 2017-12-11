@@ -13,7 +13,7 @@ This repository includes Task 1 of HPDF. It includes creation of twitter timelin
 5. Head to  http://localhost:3000 on your browser.
 6. You will have the **Twitter Timeline** running on your browser.
 
-![twitter timeline](https://user-images.githubusercontent.com/10224804/33838929-d76bc4a6-deb6-11e7-8629-56501071280f.png "This is what you should see on your browser")
+![twitter timeline](https://user-images.githubusercontent.com/10224804/33846179-cb6bfd32-decb-11e7-86cd-0aa628815325.png "This is what you should see on your browser")
 
 ## B. Instructions for running the Twitter Search page:
 
