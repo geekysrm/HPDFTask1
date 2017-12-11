@@ -4,13 +4,16 @@ Hasura Product Development Fellowship Task 1:  **Twitter Timeline**
 
 1. Clone the repository which includes 2 folders by running `git clone https://github.com/geekysrm/HPDFTask1.git` 
    (if not already done)
-2. cd into `timeline` folder.
+2. `cd` into `HPDFTask1/timeline` folder.
 3. Run `npm install` from your terminal to install all dependencies.
 4. Run `npm start` from your terminal to start the server in development mode.
 5. Head to  http://localhost:3000 on your browser.
 6. You will have the **Twitter Timeline** running on your browser.
 
-~ Soumya Ranjan Mohanty (@geekysrm)
+![twitter timeline](https://user-images.githubusercontent.com/10224804/33838929-d76bc4a6-deb6-11e7-8629-56501071280f.png "This is what you should see on your browser")
+
+
+~ **Soumya Ranjan Mohanty (@geekysrm)**
 
 
 
