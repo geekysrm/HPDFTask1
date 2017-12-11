@@ -3,7 +3,7 @@ Hasura Product Development Fellowship Task 1:  **Twitter Searchpage**
 ## Instructions for running the Twitter Searchpage:
 
 1. Clone the repository which includes 2 folders by running `git clone https://github.com/geekysrm/HPDFTask1.git` (if not      already done.)
-2. Go to `searchpage` folder.
+2. cd into `searchpage` folder.
 3. Run `npm install` from your terminal to install all dependencies.
 4. Run `npm start` from your terminal to start the server in development mode.
 5. Head to  http://localhost:3000 on your browser.
