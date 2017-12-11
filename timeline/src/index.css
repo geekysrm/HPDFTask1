@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6ecf0;
+}
+::placeholder { 
+   color:    #1DA1F2;
+   font-size: 10px;
+}
+input[type="text"]{
+    display: inline-block;
+    width: 450px;
+    height: 25px;
+    box-sizing: border-box;
+    outline: none;
+    border: .5px solid #c6e7fb;
+    border-radius: 6px;
+    padding: 10px 15px 10px 10px;
+  }
+  a {
+   text-decoration: none;
+   cursor: pointer
+}
+
+a:hover {
+   text-decoration: underline; 
+}
